@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/mimi2619.github.io/static/css/main.b2e41f1e.css",
-    "main.js": "/mimi2619.github.io/static/js/main.22458495.js",
-    "static/js/787.8137b65e.chunk.js": "/mimi2619.github.io/static/js/787.8137b65e.chunk.js",
-    "static/media/cezar.png": "/mimi2619.github.io/static/media/cezar.5889c32e3cb880c2322b.png",
-    "static/media/catalina.jpg": "/mimi2619.github.io/static/media/catalina.f224f9a2f6876f620f95.jpg",
-    "static/media/luchi.png": "/mimi2619.github.io/static/media/luchi.84ceb403ba0ce97f1ddb.png",
-    "static/media/mimi.jpeg": "/mimi2619.github.io/static/media/mimi.b9c62937eaa1e557e6fc.jpeg",
-    "static/media/cristinaz.png": "/mimi2619.github.io/static/media/cristinaz.f6afa83efcc4134ffafa.png",
-    "static/media/cristina2.png": "/mimi2619.github.io/static/media/cristina2.2897e70cb0a2c267f150.png",
-    "static/media/alexia.jpg": "/mimi2619.github.io/static/media/alexia.1d22946a02fddcca4096.jpg",
-    "static/media/iulia.jpeg": "/mimi2619.github.io/static/media/iulia.a6642688839770c4d936.jpeg",
-    "static/media/cristi.jpeg": "/mimi2619.github.io/static/media/cristi.36f106dcce7d52cc1280.jpeg",
-    "index.html": "/mimi2619.github.io/index.html",
-    "main.b2e41f1e.css.map": "/mimi2619.github.io/static/css/main.b2e41f1e.css.map",
-    "main.22458495.js.map": "/mimi2619.github.io/static/js/main.22458495.js.map",
-    "787.8137b65e.chunk.js.map": "/mimi2619.github.io/static/js/787.8137b65e.chunk.js.map"
+    "main.css": "/static/css/main.e31d0823.css",
+    "main.js": "/static/js/main.374253f8.js",
+    "static/js/787.8137b65e.chunk.js": "/static/js/787.8137b65e.chunk.js",
+    "static/media/cezar.png": "/static/media/cezar.5889c32e3cb880c2322b.png",
+    "static/media/catalina.jpg": "/static/media/catalina.f224f9a2f6876f620f95.jpg",
+    "static/media/luchi.png": "/static/media/luchi.84ceb403ba0ce97f1ddb.png",
+    "static/media/mimi.jpeg": "/static/media/mimi.b9c62937eaa1e557e6fc.jpeg",
+    "static/media/cristinaz.png": "/static/media/cristinaz.f6afa83efcc4134ffafa.png",
+    "static/media/cristina2.png": "/static/media/cristina2.2897e70cb0a2c267f150.png",
+    "static/media/alexia.jpg": "/static/media/alexia.1d22946a02fddcca4096.jpg",
+    "static/media/iulia.jpeg": "/static/media/iulia.a6642688839770c4d936.jpeg",
+    "static/media/cristi.jpeg": "/static/media/cristi.36f106dcce7d52cc1280.jpeg",
+    "index.html": "/index.html",
+    "main.e31d0823.css.map": "/static/css/main.e31d0823.css.map",
+    "main.374253f8.js.map": "/static/js/main.374253f8.js.map",
+    "787.8137b65e.chunk.js.map": "/static/js/787.8137b65e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2e41f1e.css",
-    "static/js/main.22458495.js"
+    "static/css/main.e31d0823.css",
+    "static/js/main.374253f8.js"
   ]
 }
