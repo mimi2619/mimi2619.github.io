@@ -1,0 +1,135 @@
+.header {
+  transform: scale(1.05);
+  justify-content: space-between;
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100vw;
+  height: 4.8rem;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  background: #1d8a99;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #d4f1f4;
+  padding: 2.4rem;
+}
+
+.main-nav {
+  width: 95%;
+}
+.main-nav-list {
+  text-transform: uppercase;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: flex-end;
+  color: #d4f1f4;
+  font-size: 1.6rem;
+  font-weight: 500;
+  z-index: 1;
+}
+.main-nav-link {
+  padding: 0.5em 0;
+  color: #d4f1f4;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.main-nav-link:before,
+.main-nav-link:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.main-nav-link:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #d4f1f4;
+}
+.main-nav-link:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  content: attr(data-hover);
+  color: #d4f1f4;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.main-nav-link:hover:before,
+.main-nav-link .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.main-nav-link a:hover:after,
+.main-nav-link .current a:after {
+  max-width: 100%;
+}
+
+.fundal {
+  position: absolute;
+  /* transform: translateY(40%); */
+  width: 100%;
+  height: 664.2px;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.images {
+  padding: 2.4rem;
+}
+.offline-img {
+  width: 50rem;
+  position: absolute;
+  top: 20rem;
+  left: 100rem;
+  z-index: 7;
+}
+.online-img {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+}
+.title {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  font-size: 8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+  color: #d4f1f4;
+  line-height: 1.5;
+  text-align: center;
+  left: 56rem;
+  top: 20rem;
+  letter-spacing: 0.5rem;
+}
+
+/* .title:before { */
+/* content: ""; */
+/* display: block; */
+/* width: 130px; */
+/* height: 5px; */
+/* background: aliceblue; */
+/* left: -22%; */
+/* top: 50%; */
+/* position: absolute; */
+/* } */
+/* .title:after { */
+/* content: ""; */
+/* display: block; */
+/* width: 130px; */
+/* height: 5px; */
+/* background: aliceblue; */
+/* right: -18%; */
+/* top: 50%; */
+/* position: absolute; */
+/* } */

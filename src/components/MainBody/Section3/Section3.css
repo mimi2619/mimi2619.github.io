@@ -1,0 +1,49 @@
+.container {
+  height: 60rem;
+  width: 50vw;
+}
+
+.persoana {
+  width: 70%;
+  aspect-ratio: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-bottom: 4rem;
+}
+.pers1 {
+  background-image: url("/public/alexia.jpg");
+}
+.pers2 {
+  background-image: url("/public/catalina.jpg");
+}
+.pers3 {
+  background-image: url("/public/cezar.png");
+}
+.pers4 {
+  background-image: url("/public/cristina2.png");
+}
+.pers5 {
+  background-image: url("/public/cristinaz.png");
+}
+.pers6 {
+  background-image: url("/public/cristi.jpeg");
+}
+.pers7 {
+  background-image: url("/public/iulia.jpeg");
+}
+.pers8 {
+  background-image: url("/public/luchi.png");
+}
+.pers9 {
+  background-image: url("/public/mimi.jpeg");
+}
+.grupa {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}

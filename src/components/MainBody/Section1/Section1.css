@@ -1,0 +1,70 @@
+.heading-2 {
+  color: #d4f1f4;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 16rem;
+  padding: 0 2rem;
+}
+.informatii {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.poza {
+  width: 50rem;
+  height: auto;
+}
+.grid {
+  display: grid;
+}
+.grid-3 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.data {
+  width: 20rem;
+}
+.locatie {
+  width: 20rem;
+}
+.echipa {
+  width: 20rem;
+}
+.premiu {
+  width: 20rem;
+}
+.masa {
+  width: 20rem;
+}
+.text1 {
+  color: #d4f1f4;
+  margin: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  z-index: 4;
+}
+.box {
+  padding: 2.4rem;
+  text-align: center;
+}
+.informatii-generale {
+  color: #d4f1f4;
+  margin: 0 1rem;
+  font-size: 2rem;
+  width: 66rem;
+  gap: 4rem;
+}
+/* .container {
+  background-image: url("/public/waves2.svg");
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  z-index: -1;
+} */
+.waves3 {
+  bottom: -10rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  position: relative;
+  bottom: 10rem;
+}
