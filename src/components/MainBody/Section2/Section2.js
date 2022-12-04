@@ -27,7 +27,7 @@ export default function Section2() {
           </div>
           <div className="img-box">
             <img
-              src="gartic.svg"
+              src={process.env.PUBLIC_URL + "/gartic.svg"}
               alt="gartic phone logo"
               className="gartic-img"
             />
@@ -43,7 +43,7 @@ export default function Section2() {
         <div className="even-game  grid grid-2">
           <div className="img-box">
             <img
-              src="skribbl.svg"
+              src={process.env.PUBLIC_URL + "/skribbl.svg"}
               alt="skirbbl phone logo"
               className="skribbl-img"
             />
@@ -92,7 +92,7 @@ export default function Section2() {
           </div>
           <div className="img-box">
             <img
-              src="triviador.svg"
+              src={process.env.PUBLIC_URL + "/triviador.svg"}
               alt="triviador logo"
               className="triviador-img"
             />
@@ -108,7 +108,7 @@ export default function Section2() {
         <div className="even-game  grid grid-2">
           <div className="img-box">
             <img
-              src="picniccuvant.svg"
+              src={process.env.PUBLIC_URL + "/picniccuvant.svg"}
               alt="picnic cuvant logo"
               className="pixwords-img"
             />

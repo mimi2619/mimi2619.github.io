@@ -6,7 +6,11 @@ export default function Section1() {
     <div className="section2">
       <h2 className="heading-2">Informatii</h2>
       <div className="informatii">
-        <img src="teamwork2.svg" alt="prezentare" className="poza" />
+        <img
+          src={process.env.PUBLIC_URL + "/teamwork2.svg"}
+          alt="prezentare"
+          className="poza"
+        />
 
         <p className="informatii-generale">
           Echipa 7DAYS vine cu o noua modalitate originală și interactivă de a
@@ -21,7 +25,11 @@ export default function Section1() {
       <div className="container grid grid-3">
         <div className="box">
           <div className="test">
-            <img src="data.svg" alt="data" className="data" />
+            <img
+              src={process.env.PUBLIC_URL + "/data.svg"}
+              alt="data"
+              className="data"
+            />
             <p className="text1">
               Cand?
               <br />
@@ -30,7 +38,11 @@ export default function Section1() {
           </div>
         </div>
         <div className="box">
-          <img src="locatie.svg" alt="locatie" className="locatie" />
+          <img
+            src={process.env.PUBLIC_URL + "//locatie.svg"}
+            alt="locatie"
+            className="locatie"
+          />
           <p className="text1">
             Unde?
             <br />
@@ -38,7 +50,11 @@ export default function Section1() {
           </p>
         </div>
         <div className="box">
-          <img src="echipa.svg" alt="echipa" className="echipa" />
+          <img
+            src={process.env.PUBLIC_URL + "/echipa.svg"}
+            alt="echipa"
+            className="echipa"
+          />
           <p className="text1">
             Cum?
             <br />
@@ -47,7 +63,11 @@ export default function Section1() {
         </div>
 
         <div className="box">
-          <img src="premiu.svg" alt="premiu" className="premiu" />
+          <img
+            src={process.env.PUBLIC_URL + "/premiu.svg"}
+            alt="premiu"
+            className="premiu"
+          />
           <p className="text1">
             De ce?
             <br />
@@ -55,7 +75,11 @@ export default function Section1() {
           </p>
         </div>
         <div className="box">
-          <img src="masa.svg" alt="masa" className="masa" />
+          <img
+            src={process.env.PUBLIC_URL + "/masa.svg"}
+            alt="masa"
+            className="masa"
+          />
           <p className="text1">
             Altceva?
             <br />

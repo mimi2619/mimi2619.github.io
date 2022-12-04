@@ -4,7 +4,11 @@ import "./Navbar.css";
 export default function Hero() {
   return (
     <div className="background">
-      <img src="simple.svg" alt="fundal" className="fundal" />
+      <img
+        src={process.env.PUBLIC_URL + "/simple.svg"}
+        alt="fundal"
+        className="fundal"
+      />
       {/* <svg
           width="100%"
           height="100%"
@@ -50,12 +54,12 @@ export default function Hero() {
       </h1>
       <div className="images">
         <img
-          src="online.svg"
+          src={process.env.PUBLIC_URL + "/online.svg"}
           alt="online gaming session"
           className="online-img"
         />
         <img
-          src="offline.svg"
+          src={process.env.PUBLIC_URL + "/offline.svg"}
           alt="online gaming session"
           className="offline-img"
         />
