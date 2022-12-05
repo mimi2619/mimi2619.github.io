@@ -6,6 +6,7 @@ export default function Section2() {
   return (
     <div>
       <h2 className="heading-jocuri">Ce jocuri avem?</h2>
+      <div className="scrollTo-jocuri" id="jocuri"></div>
       <AnimationOnScroll
         animatePreScroll={true}
         animateIn="fadeInLeft"

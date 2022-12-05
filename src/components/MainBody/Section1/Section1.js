@@ -4,6 +4,7 @@ import "./Section1.css";
 export default function Section1() {
   return (
     <div className="section2">
+      <div className="scrollTo" id="informatii"></div>
       <h2 className="heading-2">Informatii</h2>
       <div className="informatii">
         <img
@@ -22,7 +23,7 @@ export default function Section1() {
           acasă cu zâmbetul pe buze.
         </p>
       </div>
-      <div className="container grid grid-3">
+      <div className=" grid grid-3">
         <div className="box">
           <div className="test">
             <img
@@ -39,7 +40,7 @@ export default function Section1() {
         </div>
         <div className="box">
           <img
-            src={process.env.PUBLIC_URL + "//locatie.svg"}
+            src={process.env.PUBLIC_URL + "/locatie.svg"}
             alt="locatie"
             className="locatie"
           />

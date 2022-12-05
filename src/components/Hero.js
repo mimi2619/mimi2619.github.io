@@ -4,6 +4,7 @@ import "./Navbar.css";
 export default function Hero() {
   return (
     <div className="background">
+      <div className="scrollTo-acasa" id="acasa"></div>
       <img
         src={process.env.PUBLIC_URL + "/simple.svg"}
         alt="fundal"

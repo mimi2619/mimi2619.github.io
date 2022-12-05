@@ -112,6 +112,12 @@
   top: 20rem;
   letter-spacing: 0.5rem;
 }
+.scrollTo-acasa {
+  position: relative;
+  width: 10px;
+  content: "";
+  top: -10rem;
+}
 
 /* .title:before { */
 /* content: ""; */

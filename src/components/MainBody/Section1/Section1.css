@@ -3,7 +3,7 @@
   font-size: 4rem;
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 16rem;
+  margin-top: 18rem;
   padding: 0 2rem;
 }
 .informatii {
@@ -17,6 +17,7 @@
   height: auto;
 }
 .grid {
+  width: 100%;
   display: grid;
 }
 .grid-3 {
@@ -67,4 +68,11 @@
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   position: relative;
   bottom: 10rem;
+}
+
+.scrollTo {
+  position: relative;
+  width: 10px;
+  content: "";
+  top: -8rem;
 }
