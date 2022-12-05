@@ -76,3 +76,32 @@
   content: "";
   top: -8rem;
 }
+@media only screen and (max-width: 600px) {
+  .informatii {
+    display: block;
+  }
+  .poza {
+    width: 30rem;
+    display: block;
+    margin: auto;
+  }
+  .informatii-generale {
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 1rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .waves3 {
+    display: none;
+  }
+  .box:last-child {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+      rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  }
+}

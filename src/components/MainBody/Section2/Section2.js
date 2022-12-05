@@ -13,7 +13,7 @@ export default function Section2() {
         animateOnce={true}
         duration={1}
       >
-        <div className="odd-game grid grid-2">
+        <div className="odd-game grid-jocuri grid-2">
           <div className="text-box">
             <p className="number">01</p>
 
@@ -41,7 +41,7 @@ export default function Section2() {
         animateOnce={true}
         duration={1}
       >
-        <div className="even-game  grid grid-2">
+        <div className="even-game  grid-jocuri grid-2">
           <div className="img-box">
             <img
               src={process.env.PUBLIC_URL + "/skribbl.svg"}
@@ -72,7 +72,7 @@ export default function Section2() {
         animateOnce={true}
         duration={1}
       >
-        <div className="odd-game  grid grid-2">
+        <div className="odd-game  grid-jocuri grid-2">
           <div className="text-box">
             <p className="number">03</p>
 
@@ -106,7 +106,7 @@ export default function Section2() {
         animateOnce={true}
         duration={1}
       >
-        <div className="even-game  grid grid-2">
+        <div className="even-game  grid-jocuri grid-2">
           <div className="img-box">
             <img
               src={process.env.PUBLIC_URL + "/picniccuvant.svg"}
@@ -118,10 +118,18 @@ export default function Section2() {
             <p className="number">04</p>
 
             <ul className="reguli">
-              <li>regula 1</li>
-              <li>regula 2</li>
-              <li>regula 3</li>
-              <li>regula4</li>
+              <li>
+                Jucatorii vor fi impartiti in echipe, o echipa va avea maxim 5
+                persoane
+              </li>
+              <li>
+                Acestea vor primi niste litere cu care vor trebui sa formeze
+                cuvinte de diferite marimi stabilite de catre organizatori
+              </li>
+              <li>
+                Cu cat acestia vor fi mai rapizi si o sa gaseasca cuvintele
+                corecte, cu atat vor primi mai multe puncte
+              </li>
             </ul>
           </div>
         </div>

@@ -20,7 +20,7 @@
   width: 35%;
 }
 
-.grid {
+.grid-jocuri {
   display: grid;
   column-gap: 4rem;
   row-gap: 4rem;
@@ -145,4 +145,40 @@
   width: 10px;
   content: "";
   top: -28rem;
+}
+@media only screen and (max-width: 600px) {
+  .heading-jocuri {
+    margin-top: 4rem;
+  }
+  .grid-jocuri {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .text-box {
+    justify-self: center;
+    padding: 0;
+  }
+  .gartic-img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+  }
+  .skribbl-img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+  }
+  .triviador-img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+  }
+  .pixwords-img {
+    width: 30rem;
+    display: block;
+    margin: auto;
+  }
 }

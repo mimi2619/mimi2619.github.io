@@ -113,3 +113,22 @@
   content: "";
   top: 28rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .img-echipa1 {
+    display: none;
+  }
+  .img-echipa2 {
+    display: none;
+  }
+  .grupa {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  .persoana:nth-child(2) {
+    top: 0;
+  }
+}

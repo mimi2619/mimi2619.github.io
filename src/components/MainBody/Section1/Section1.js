@@ -34,7 +34,7 @@ export default function Section1() {
             <p className="text1">
               Cand?
               <br />
-              Joi, 5 decembrie, ora 20:00
+              Joi, 8 decembrie, ora 20:00
             </p>
           </div>
         </div>
